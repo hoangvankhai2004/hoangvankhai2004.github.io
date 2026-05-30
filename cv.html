@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light" data-accent="cyan">
+<head>
+  <meta charset="utf-8" />
+  <title>Hoàng Văn Khải — CV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="CV — Control & Automation · IoT · Robotics · Embedded · Web" />
+  <meta name="author" content="Hoàng Văn Khải" />
+  <meta name="copyright" content="© 2026 Hoàng Văn Khải · hoangvankhai2004" />
+  <meta name="owner" content="Hoàng Văn Khải · hoangvankhai2004" />
+  <link rel="canonical" href="./cv.html" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Copyright © 2026 Hoàng Văn Khải · hoangvankhai2004. All rights reserved. -->
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="assets/cv.css" />
+</head>
+
+<body>
+  <div class="app-shell">
+    <div class="topbar">
+      <div class="brand-title">Curriculum Vitae — Hoàng Văn Khải</div>
+      <div class="controls" aria-label="controls">
+        <a id="backHomeBtn" class="btn ghost" href="index.html">Portfolio</a>
+        <button id="langToggle" class="btn ghost" type="button">VI</button>
+        <button id="themeToggle" class="btn ghost" type="button">Mode: Light</button>
+        <button id="layoutToggle" class="btn primary" type="button">Tùy chỉnh</button>
+        <button id="printToggle" class="btn" type="button">Print</button>
+      </div>
+    </div>
+
+    <div class="cv-screen" id="cvWrapper">
+      <div class="screen-left">
+        <div class="avatar-wrap">
+          <img id="avatarImg" alt="Ảnh Hoàng Văn Khải" />
+          <div class="name-screen" id="nameScreen">Hoàng Văn Khải</div>
+          <div class="role-screen" id="roleScreen">Control &amp; Automation · Embedded</div>
+        </div>
+
+        <div class="side-panel">
+          <div class="screen-section-title" id="contactTitle">Contact</div>
+          <div class="contact-screen" id="contactList"></div>
+        </div>
+
+        <div class="side-panel">
+          <div class="screen-section-title" id="coreSkillsTitle">Core Skills</div>
+          <div id="coreSkillsList"></div>
+        </div>
+
+        <div class="side-panel">
+          <div class="screen-section-title" id="toolsTitle">Tools · Technologies</div>
+          <div id="toolsList"></div>
+        </div>
+
+        <div id="langsBox" class="side-panel">
+          <div class="screen-section-title" id="langsTitle">Languages</div>
+          <div id="langList"></div>
+        </div>
+
+        <div id="extraSkillsPanel" class="side-panel is-hidden">
+          <div class="screen-section-title" id="extraSkillsTitle">Additional Skills</div>
+          <div id="extraSkills"></div>
+        </div>
+      </div>
+
+      <div class="screen-right">
+        <div class="summary-box screen-panel">
+          <h2 id="summaryTitle">Summary</h2>
+          <p id="summaryText"></p>
+        </div>
+
+        <div class="screen-panel">
+          <h2 class="screen-section-title" id="expTitle">Experience</h2>
+          <div class="exp-grid" id="expList"></div>
+        </div>
+
+        <div class="screen-panel">
+          <h2 class="screen-section-title" id="projTitle">Featured Projects</h2>
+          <div class="exp-grid" id="projList"></div>
+        </div>
+
+        <div class="screen-panel">
+          <h2 class="screen-section-title" id="eduTitle">Education</h2>
+          <div id="eduList"></div>
+        </div>
+
+        <div class="screen-panel">
+          <h2 class="screen-section-title" id="achTitle">Achievements</h2>
+          <ul id="achList"></ul>
+        </div>
+
+        <div id="activitiesPanel" class="screen-panel is-hidden">
+          <h2 class="screen-section-title" id="actTitle">Activities</h2>
+          <div id="actList"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="printFlow" class="print-flow" aria-hidden="true"></div>
+    <footer
+      id="footerNote"
+      class="cv-copyright"
+      aria-label="Copyright"
+      style="margin:18px 0 4px;text-align:center;font-size:12px;opacity:.72;"
+    >
+      © 2026 Hoàng Văn Khải · hoangvankhai2004
+    </footer>
+  </div>
+
+  <div class="fab-stack">
+    <button id="fabPrint" class="fab-btn">Print / PDF</button>
+    <button id="fabLayout" class="fab-btn primary">Giao diện</button>
+  </div>
+
+  <div id="layoutModal" class="layout-modal" role="dialog" aria-modal="true">
+    <div class="layout-panel">
+      <div class="layout-header">
+        <div>
+          <div class="layout-heading">Chọn giao diện</div>
+          <div class="layout-subheading">Layout + màu nhấn</div>
+        </div>
+        <div class="layout-header-actions">
+          <span id="layoutActiveLabel" class="layout-chip">Đang áp dụng</span>
+          <button id="layoutClose" class="layout-close" type="button">Đóng</button>
+        </div>
+      </div>
+
+      <div class="layout-tabs layout-tabs-spaced">
+        <button id="styleTabColors" class="layout-tab" type="button">Màu</button>
+        <button id="styleTabLayouts" class="layout-tab active" type="button">Bố cục</button>
+      </div>
+
+      <div id="colorSection">
+        <div class="layout-section-caption">Màu nhấn</div>
+        <div class="layout-section-caption">Palette</div>
+        <div id="paletteGrid" class="layout-grid"></div>
+        <div id="accentRow" class="accent-row"></div>
+      </div>
+
+      <div id="layoutSection">
+        <div class="layout-section-caption">Chọn bố cục</div>
+        <div id="layoutGrid" class="layout-grid"></div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/cv.js"></script>
+  <script>
+    (() => {
+      "use strict";
+
+      const FOOTER_TEXT = {
+        vi: "© 2026 Hoàng Văn Khải · hoangvankhai2004",
+        en: "© 2026 Hoang Van Khai · hoangvankhai2004"
+      };
+      const BRAND = "hoangvankhai2004";
+      const AUTHOR_NAMES = ["Hoàng Văn Khải", "Hoang Van Khai"];
+
+      let footerRestoreQueued = false;
+
+      function currentFooterText() {
+        const lang = `${document.documentElement.lang || "vi"}`.toLowerCase();
+        return lang.startsWith("en") ? FOOTER_TEXT.en : FOOTER_TEXT.vi;
+      }
+
+      function hasProtectedIdentity(text) {
+        return text.includes(BRAND) && AUTHOR_NAMES.some((name) => text.includes(name));
+      }
+
+      function ensureFooterNote() {
+        let note = document.getElementById("footerNote");
+        if (!note) {
+          note = document.createElement("footer");
+          note.id = "footerNote";
+          note.className = "cv-copyright";
+          note.setAttribute("aria-label", "Copyright");
+          note.style.cssText = "margin:18px 0 4px;text-align:center;font-size:12px;opacity:.72;";
+          (document.querySelector(".app-shell") || document.body).appendChild(note);
+        }
+
+        const expected = currentFooterText();
+        const current = note.textContent.trim();
+        if (current !== expected || !hasProtectedIdentity(current)) {
+          note.textContent = expected;
+        }
+      }
+
+      function queueFooterRestore() {
+        if (footerRestoreQueued) return;
+        footerRestoreQueued = true;
+        requestAnimationFrame(() => {
+          footerRestoreQueued = false;
+          ensureFooterNote();
+        });
+      }
+
+      function blockEvent(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        return false;
+      }
+
+      function isProtectedShortcut(event) {
+        const key = String(event.key || "").toLowerCase();
+        const ctrlShift = event.ctrlKey && event.shiftKey;
+        const macDevtools = event.metaKey && event.altKey;
+        const macShift = event.metaKey && event.shiftKey;
+        const saveOrSource = (event.ctrlKey || event.metaKey) && ["s", "u"].includes(key);
+
+        return (
+          key === "f12" ||
+          (ctrlShift && ["i", "j", "c", "k"].includes(key)) ||
+          (macDevtools && ["i", "j", "c", "k", "u"].includes(key)) ||
+          (macShift && ["i", "j", "c"].includes(key)) ||
+          saveOrSource
+        );
+      }
+
+      function initProtection() {
+        ensureFooterNote();
+
+        document.addEventListener("contextmenu", blockEvent, { capture: true });
+        document.addEventListener(
+          "keydown",
+          (event) => {
+            if (isProtectedShortcut(event)) blockEvent(event);
+          },
+          { capture: true }
+        );
+
+        if (document.body && "MutationObserver" in window) {
+          new MutationObserver(queueFooterRestore).observe(document.body, {
+            childList: true,
+            characterData: true,
+            subtree: true
+          });
+        }
+      }
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initProtection, { once: true });
+      } else {
+        initProtection();
+      }
+    })();
+  </script>
+
+</body>
+</html>

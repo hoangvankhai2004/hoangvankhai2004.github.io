@@ -1,0 +1,760 @@
+{
+  "profile": {
+    "name": "Hoàng Văn Khải",
+    "shortName": "HVK",
+    "badge": "Portfolio sản phẩm kỹ thuật",
+    "title": "Ứng viên Embedded / PCB / Robotics",
+    "summary": "Tôi tập trung vào thiết kế hệ thống điện, lập trình và hoàn thiện các sản phẩm vi điều khiển, mạch điều khiển và hệ thống nhúng thực tế.",
+    "avatar": "assets/images/avatar.svg",
+    "school": "Trường Đại học Kinh tế - Kỹ thuật Công nghiệp (UNETI)",
+    "major": "Tự động hóa",
+    "location": "Việt Nam",
+    "email": "hoangvankhai2004hl@gmail.com",
+    "phone": "0389136558",
+    "github": "https://github.com/hoangvankhai2004",
+    "cv": "cv.html",
+    "highlights": [
+      {
+        "label": "Vi điều khiển",
+        "value": "STM32 · ESP32 · Arduino"
+      },
+      {
+        "label": "Mạch",
+        "value": "Altium · KiCad"
+      },
+      {
+        "label": "Robotics",
+        "value": "Robot tự động bằng cảm biến · Điều khiển động cơ"
+      },
+      {
+        "label": "Máy tính nhúng",
+        "value": "ROS2 · MATLAB"
+      },
+      {
+        "label": "Python",
+        "value": "App · Web"
+      }
+    ],
+    "actions": [
+      {
+        "label": "Xem sản phẩm",
+        "href": "#products",
+        "style": "primary"
+      },
+      {
+        "label": "Mở CV",
+        "href": "cv.html",
+        "style": "secondary"
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/hoangvankhai2004",
+        "style": "ghost"
+      }
+    ],
+    "en": {
+      "badge": "Technical Product Portfolio",
+      "title": "Embedded / PCB / Robotics Candidate",
+      "summary": "I focus on electrical system design, programming, and building practical microcontroller, control board, and embedded systems products.",
+      "school": "University of Economics - Technology for Industries (UNETI)",
+      "major": "Automation",
+      "location": "Vietnam",
+      "highlights": [
+        {
+          "label": "Microcontrollers",
+          "value": "STM32 · ESP32 · Arduino"
+        },
+        {
+          "label": "PCB Design",
+          "value": "Altium · KiCad"
+        },
+        {
+          "label": "Robotics",
+          "value": "Sensor-based autonomous robots · Motor control"
+        },
+        {
+          "label": "Embedded Computer",
+          "value": "ROS2 · MATLAB"
+        },
+        {
+          "label": "Python",
+          "value": "App · Web"
+        }
+      ],
+      "actions": [
+        {
+          "label": "View products",
+          "href": "#products",
+          "style": "primary"
+        },
+        {
+          "label": "Open CV",
+          "href": "cv.html",
+          "style": "secondary"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/hoangvankhai2004",
+          "style": "ghost"
+        }
+      ]
+    }
+  },
+  "productsIntro": {
+    "title": "Các sản phẩm nổi bật",
+    "subtitle": "",
+    "en": {
+      "title": "Featured Products",
+      "subtitle": ""
+    }
+  },
+  "products": [
+    {
+      "id": "robot-bong-da",
+      "name": "Robot bóng đá Roboball",
+      "category": "Robot",
+      "status": "Sản phẩm thi đấu",
+      "short": "Robot điều khiển bằng tay, có khả năng di chuyển, nhận bóng và bắn bóng phục vụ thi đấu Roboball.",
+      "cover": "",
+      "images": [],
+      "videos": [],
+      "description": "Sản phẩm tập trung vào điều khiển robot thi đấu: nhận lệnh từ tay cầm, xử lý chuyển động, điều khiển nhiều động cơ và phối hợp cơ cấu nhận/bắn bóng. Đây là nhóm sản phẩm nên đặt nổi bật nhất vì thể hiện rõ khả năng tích hợp phần cứng, firmware và cơ khí.",
+      "role": [
+        "Lập trình điều khiển robot bằng tay cầm PS2.",
+        "Điều khiển nhiều động cơ DC qua driver công suất.",
+        "Xây dựng logic di chuyển, nhận bóng và bắn bóng.",
+        "Tối ưu phản hồi điều khiển để robot vận hành ổn định khi thi đấu."
+      ],
+      "features": [
+        "Điều khiển di chuyển đa hướng.",
+        "Cơ cấu nhận bóng và bắn bóng.",
+        "Điều khiển tốc độ động cơ bằng PWM.",
+        "Có thể mở rộng thêm cảm biến và truyền thông UART."
+      ],
+      "tech": [
+        "Arduino Mega",
+        "PS2 Controller",
+        "BTS7960",
+        "L298N",
+        "PWM",
+        "UART",
+        "Động cơ DC"
+      ],
+      "result": "Hoàn thiện được nền tảng robot thi đấu có đủ phần điều khiển, cơ cấu chấp hành và khả năng demo thực tế.",
+      "links": [],
+      "en": {
+        "name": "Roboball Soccer Robot",
+        "status": "Competition product",
+        "short": "A manually controlled robot capable of movement, ball intake, and shooting for Roboball competition.",
+        "description": "This product focuses on competition robot control: receiving commands from a controller, handling motion, driving multiple motors, and coordinating ball intake/shooting mechanisms. It is one of the most important projects because it shows hardware, firmware, and mechanical integration.",
+        "role": [
+          "Programmed robot control using a PS2 controller.",
+          "Controlled multiple DC motors through power drivers.",
+          "Built movement, ball intake, and shooting logic.",
+          "Optimized control response for stable operation during competition."
+        ],
+        "features": [
+          "Omnidirectional movement control.",
+          "Ball intake and shooting mechanism.",
+          "Motor speed control using PWM.",
+          "Expandable with sensors and UART communication."
+        ],
+        "tech": [
+          "Arduino Mega",
+          "PS2 Controller",
+          "BTS7960",
+          "L298N",
+          "PWM",
+          "UART",
+          "DC Motor"
+        ],
+        "result": "Completed a competition robot platform with control logic, actuators, and real demo capability."
+      }
+    },
+    {
+      "id": "robot-nem-pickleball",
+      "name": "Robot ném Pickleball",
+      "category": "Robot",
+      "status": "Sản phẩm robot",
+      "short": "Robot phục vụ luyện tập Pickleball, tập trung vào cơ cấu cấp bóng, ném bóng và điều khiển tốc độ bằng vi điều khiển.",
+      "cover": "",
+      "images": [],
+      "videos": [],
+      "description": "Sản phẩm tập trung vào việc xây dựng một robot/cơ cấu tự động có khả năng cấp bóng và ném bóng Pickleball phục vụ luyện tập. Dự án thể hiện khả năng kết hợp cơ khí, mạch điều khiển, cảm biến và lập trình vi điều khiển để tạo ra một hệ thống vận hành thực tế.",
+      "role": [
+        "Thiết kế ý tưởng hệ thống và nguyên lý hoạt động của cơ cấu ném bóng.",
+        "Lập trình điều khiển động cơ, cảm biến và cơ cấu chấp hành.",
+        "Tối ưu tốc độ ném, chu kỳ cấp bóng và độ ổn định khi vận hành.",
+        "Kiểm tra, chỉnh sửa và hoàn thiện sản phẩm qua các lần chạy thử."
+      ],
+      "features": [
+        "Cơ cấu cấp bóng và ném bóng tự động.",
+        "Điều khiển tốc độ động cơ bằng PWM.",
+        "Có thể tích hợp cảm biến để phát hiện bóng hoặc trạng thái cơ cấu.",
+        "Phù hợp để demo năng lực thiết kế robot và cơ cấu tự động."
+      ],
+      "tech": [
+        "Vi điều khiển",
+        "Động cơ DC",
+        "Driver động cơ",
+        "PWM",
+        "Cảm biến",
+        "Cơ cấu tự động",
+        "Nguồn DC"
+      ],
+      "result": "Tạo được hướng sản phẩm robot luyện tập thể thao có khả năng mở rộng thêm chế độ ném, chỉnh tốc độ và điều khiển từ app/web.",
+      "links": [],
+      "en": {
+        "name": "Pickleball Throwing Robot",
+        "status": "Robot product",
+        "short": "A Pickleball training robot focused on ball feeding, throwing mechanism, and speed control using a microcontroller.",
+        "description": "This project focuses on building an automatic robot/mechanism capable of feeding and throwing Pickleball balls for training. It demonstrates the ability to combine mechanics, control boards, sensors, and microcontroller programming into a practical working system.",
+        "role": [
+          "Designed the system concept and throwing mechanism principle.",
+          "Programmed motor, sensor, and actuator control.",
+          "Optimized throwing speed, feeding cycle, and operating stability.",
+          "Tested, adjusted, and improved the product through trial runs."
+        ],
+        "features": [
+          "Automatic ball feeding and throwing mechanism.",
+          "Motor speed control using PWM.",
+          "Can integrate sensors to detect the ball or mechanism state.",
+          "Suitable for demonstrating robot and automatic mechanism design."
+        ],
+        "tech": [
+          "Microcontroller",
+          "DC Motor",
+          "Motor Driver",
+          "PWM",
+          "Sensor",
+          "Automatic Mechanism",
+          "DC Power"
+        ],
+        "result": "Created a direction for a sports training robot that can be expanded with throwing modes, speed adjustment, and app/web control."
+      }
+    },
+    {
+      "id": "tay-cam-24ghz",
+      "name": "Tay cầm điều khiển robot 2.4GHz",
+      "category": "Điều khiển",
+      "status": "Prototype / ứng dụng robot",
+      "short": "Tay cầm điều khiển không dây cho robot, định hướng chống nhiễu và truyền lệnh ổn định trong môi trường thi đấu.",
+      "cover": "",
+      "images": [],
+      "videos": [],
+      "description": "Tay cầm phục vụ điều khiển robot từ xa, tập trung vào việc đọc nút nhấn/joystick, đóng gói dữ liệu điều khiển và truyền không dây tới robot. Sản phẩm phù hợp để nhà tuyển dụng thấy khả năng làm thiết bị điều khiển thực tế.",
+      "role": [
+        "Thiết kế logic đọc nút nhấn và joystick.",
+        "Xây dựng gói dữ liệu điều khiển gửi sang robot.",
+        "Tối ưu chu kỳ gửi lệnh để giảm độ trễ.",
+        "Kiểm tra độ ổn định truyền nhận trong quá trình điều khiển."
+      ],
+      "features": [
+        "Điều khiển robot từ xa.",
+        "Đọc nhiều nút nhấn và joystick.",
+        "Có thể dùng checksum/check bit để phát hiện lỗi dữ liệu.",
+        "Phù hợp cho robot điều khiển tay trong thi đấu."
+      ],
+      "tech": [
+        "2.4GHz",
+        "Joystick",
+        "Button",
+        "Checksum",
+        "UART/SPI",
+        "Vi điều khiển"
+      ],
+      "result": "Tạo được nền tảng tay cầm điều khiển robot có thể mở rộng cho nhiều loại robot khác nhau.",
+      "links": [],
+      "en": {
+        "name": "2.4GHz Robot Controller",
+        "status": "Prototype / robot application",
+        "short": "A wireless robot controller designed for stable command transmission and interference-aware operation in competition environments.",
+        "description": "This controller is used for remote robot operation, focusing on reading buttons/joysticks, packaging control data, and wirelessly transmitting commands to the robot. It is a practical product that shows device-control capability.",
+        "role": [
+          "Designed logic for reading buttons and joysticks.",
+          "Built control data packets sent to the robot.",
+          "Optimized the command sending cycle to reduce latency.",
+          "Tested transmission stability during robot control."
+        ],
+        "features": [
+          "Remote robot control.",
+          "Reads multiple buttons and joysticks.",
+          "Can use checksum/check bits for data error detection.",
+          "Suitable for manually controlled competition robots."
+        ],
+        "tech": [
+          "2.4GHz",
+          "Joystick",
+          "Button",
+          "Checksum",
+          "UART/SPI",
+          "Microcontroller"
+        ],
+        "result": "Built a robot controller platform that can be expanded for different robot types."
+      }
+    },
+    {
+      "id": "mach-input-cam-bien",
+      "name": "Mạch đọc tín hiệu input / cảm biến",
+      "category": "PCB",
+      "status": "Mạch ứng dụng robot",
+      "short": "Board đọc tín hiệu cảm biến và input cho hệ thống robot, giúp gom dây gọn và dễ bảo trì.",
+      "cover": "",
+      "images": [],
+      "videos": [],
+      "description": "Mạch input được thiết kế để nhận tín hiệu từ cảm biến hoặc công tắc hành trình, đưa về vi điều khiển xử lý. Điểm chính của sản phẩm là bố trí phần cứng gọn, rõ tín hiệu và thuận tiện đấu nối trên robot.",
+      "role": [
+        "Thiết kế sơ đồ nguyên lý và layout PCB.",
+        "Bố trí đầu nối, đường nguồn và đường tín hiệu.",
+        "Kiểm tra tín hiệu đầu vào khi kết nối với vi điều khiển.",
+        "Tối ưu cách đấu nối để dễ lắp đặt trên robot."
+      ],
+      "features": [
+        "Gom nhiều tín hiệu input về một board.",
+        "Dễ đấu nối với vi điều khiển.",
+        "Có thể dùng cho cảm biến, nút nhấn, công tắc hành trình.",
+        "Giúp hệ thống robot gọn và dễ sửa lỗi."
+      ],
+      "tech": [
+        "Altium",
+        "KiCad",
+        "PCB",
+        "Sensor Input",
+        "GPIO",
+        "STM32/Arduino"
+      ],
+      "result": "Tạo được board input phục vụ quá trình lắp ráp và kiểm tra robot thuận tiện hơn.",
+      "links": [],
+      "en": {
+        "name": "Input / Sensor Signal Reading Board",
+        "status": "Robot application board",
+        "short": "A board for reading sensor and input signals in robot systems, helping wiring stay clean and easy to maintain.",
+        "description": "The input board is designed to receive signals from sensors or limit switches and send them to the microcontroller for processing. Its main value is neat hardware layout, clear signal routing, and convenient wiring on robots.",
+        "role": [
+          "Designed schematic and PCB layout.",
+          "Arranged connectors, power lines, and signal lines.",
+          "Tested input signals when connected to the microcontroller.",
+          "Optimized wiring for easier robot installation."
+        ],
+        "features": [
+          "Collects multiple input signals into one board.",
+          "Easy connection to a microcontroller.",
+          "Can be used for sensors, buttons, and limit switches.",
+          "Makes the robot system cleaner and easier to debug."
+        ],
+        "tech": [
+          "Altium",
+          "KiCad",
+          "PCB",
+          "Sensor Input",
+          "GPIO",
+          "STM32/Arduino"
+        ],
+        "result": "Created an input board that makes robot assembly and testing more convenient."
+      }
+    },
+    {
+      "id": "mach-output-van-co-cau",
+      "name": "Mạch kích output / van / cơ cấu chấp hành",
+      "category": "PCB",
+      "status": "Mạch ứng dụng robot",
+      "short": "Board kích output dùng để điều khiển van, relay hoặc cơ cấu chấp hành trên robot.",
+      "cover": "",
+      "images": [],
+      "videos": [],
+      "description": "Mạch output phục vụ việc điều khiển các tải ngoài như van điện, relay hoặc cơ cấu chấp hành. Đây là phần quan trọng để tách tín hiệu điều khiển mức thấp khỏi tải công suất, giúp robot vận hành an toàn và dễ kiểm soát hơn.",
+      "role": [
+        "Thiết kế mạch kích output theo yêu cầu tải.",
+        "Bố trí đầu nối nguồn, đầu ra tải và tín hiệu điều khiển.",
+        "Kiểm tra đóng/ngắt tải thực tế.",
+        "Tích hợp board vào hệ thống robot."
+      ],
+      "features": [
+        "Điều khiển tải ngoài từ vi điều khiển.",
+        "Dễ mở rộng nhiều kênh output.",
+        "Phù hợp cho van khí nén, relay hoặc cơ cấu phụ.",
+        "Giảm rối dây trong robot."
+      ],
+      "tech": [
+        "PCB",
+        "MOSFET/Driver",
+        "GPIO",
+        "Van khí",
+        "Relay",
+        "Nguồn DC"
+      ],
+      "result": "Hoàn thiện board output giúp việc điều khiển cơ cấu robot rõ ràng và dễ bảo trì hơn.",
+      "links": [],
+      "en": {
+        "name": "Output / Valve / Actuator Driver Board",
+        "status": "Robot application board",
+        "short": "An output driver board for controlling valves, relays, or actuators in robot systems.",
+        "description": "The output board is used to control external loads such as solenoid valves, relays, or actuators. It separates low-level control signals from power loads, making the robot safer and easier to control.",
+        "role": [
+          "Designed the output driver circuit based on load requirements.",
+          "Arranged power, load output, and control signal connectors.",
+          "Tested real load switching.",
+          "Integrated the board into the robot system."
+        ],
+        "features": [
+          "Controls external loads from a microcontroller.",
+          "Expandable to multiple output channels.",
+          "Suitable for pneumatic valves, relays, or auxiliary mechanisms.",
+          "Reduces messy wiring in robots."
+        ],
+        "tech": [
+          "PCB",
+          "MOSFET/Driver",
+          "GPIO",
+          "Pneumatic Valve",
+          "Relay",
+          "DC Power"
+        ],
+        "result": "Completed an output board that makes robot actuator control clearer and easier to maintain."
+      }
+    },
+    {
+      "id": "mach-pid-dong-co",
+      "name": "Mạch PID điều khiển động cơ",
+      "category": "Driver",
+      "status": "Định hướng robot Robocon",
+      "short": "Mạch điều khiển động cơ có phản hồi encoder, phục vụ điều khiển tốc độ/vị trí trong robot.",
+      "cover": "",
+      "images": [],
+      "videos": [],
+      "description": "Sản phẩm hướng tới điều khiển động cơ có hồi tiếp, dùng thuật toán PID để ổn định tốc độ hoặc vị trí. Đây là phần thể hiện rõ năng lực về điều khiển, đọc encoder và xử lý tín hiệu trong hệ robot.",
+      "role": [
+        "Xây dựng cấu trúc đọc encoder và tính tốc độ.",
+        "Triển khai thuật toán PID cho động cơ.",
+        "Điều khiển driver công suất bằng PWM.",
+        "Kiểm tra đáp ứng động cơ khi thay đổi tải và tốc độ đặt."
+      ],
+      "features": [
+        "Đọc encoder phản hồi tốc độ.",
+        "Điều khiển PWM cho driver động cơ.",
+        "Có thể chỉnh thông số PID.",
+        "Phù hợp cho robot cần chạy ổn định."
+      ],
+      "tech": [
+        "PID",
+        "Encoder",
+        "PWM",
+        "STM32",
+        "Arduino",
+        "BTS7960",
+        "Motor Control"
+      ],
+      "result": "Tạo nền tảng điều khiển động cơ có phản hồi, phục vụ robot tự động và robot điều khiển tay.",
+      "links": [],
+      "en": {
+        "name": "PID Motor Control Board",
+        "status": "Robocon-oriented design",
+        "short": "A motor control board with encoder feedback for speed/position control in robot systems.",
+        "description": "This product focuses on closed-loop motor control using PID to stabilize speed or position. It highlights skills in control algorithms, encoder reading, and signal processing for robots.",
+        "role": [
+          "Built encoder reading and speed calculation structure.",
+          "Implemented PID control for motors.",
+          "Controlled power drivers using PWM.",
+          "Tested motor response under speed changes and load changes."
+        ],
+        "features": [
+          "Reads encoder feedback for speed.",
+          "PWM control for motor drivers.",
+          "PID parameters can be adjusted.",
+          "Suitable for robots that require stable motion."
+        ],
+        "tech": [
+          "PID",
+          "Encoder",
+          "PWM",
+          "STM32",
+          "Arduino",
+          "BTS7960",
+          "Motor Control"
+        ],
+        "result": "Built a foundation for feedback-based motor control for both autonomous and manually controlled robots."
+      }
+    },
+    {
+      "id": "stm32f4-base-board",
+      "name": "Mạch đế STM32F4 tích hợp buck/header",
+      "category": "PCB",
+      "status": "Board nền tảng",
+      "short": "Board đế đưa chân STM32F4 ra header, tích hợp nguồn buck để đấu nối robot nhanh và gọn.",
+      "cover": "",
+      "images": [],
+      "videos": [],
+      "description": "Board đế STM32F4 giúp đưa chân vi điều khiển ra các header dễ đấu nối, đồng thời tích hợp phần nguồn để sử dụng trực tiếp trong hệ thống robot. Mục tiêu là giảm dây rối và giúp quá trình thử nghiệm nhanh hơn.",
+      "role": [
+        "Thiết kế sơ đồ nguyên lý và layout PCB.",
+        "Bố trí header theo nhóm chức năng.",
+        "Tích hợp nguồn buck cho hệ thống.",
+        "Kiểm tra cấp nguồn và kết nối ngoại vi."
+      ],
+      "features": [
+        "Đưa chân STM32F4 ra header rõ ràng.",
+        "Tích hợp nguồn buck.",
+        "Thuận tiện kết nối UART, I2C, SPI, PWM, GPIO.",
+        "Phù hợp làm board điều khiển trung tâm cho robot."
+      ],
+      "tech": [
+        "STM32F4",
+        "Buck Converter",
+        "Header",
+        "Altium/KiCad",
+        "UART",
+        "I2C",
+        "SPI",
+        "PWM"
+      ],
+      "result": "Có board nền tảng giúp triển khai và debug hệ thống robot nhanh hơn so với đấu dây rời.",
+      "links": [],
+      "en": {
+        "name": "STM32F4 Base Board with Buck/Header",
+        "status": "Platform board",
+        "short": "A base board that breaks out STM32F4 pins to headers and integrates a buck power supply for cleaner robot wiring.",
+        "description": "The STM32F4 base board exposes microcontroller pins to easy-to-use headers and integrates the power stage for direct use in robot systems. The goal is to reduce messy wiring and speed up prototyping.",
+        "role": [
+          "Designed schematic and PCB layout.",
+          "Grouped headers by function.",
+          "Integrated a buck converter for the system.",
+          "Tested power supply and peripheral connections."
+        ],
+        "features": [
+          "Breaks out STM32F4 pins clearly.",
+          "Integrated buck converter.",
+          "Convenient for UART, I2C, SPI, PWM, and GPIO connections.",
+          "Suitable as a central control board for robots."
+        ],
+        "tech": [
+          "STM32F4",
+          "Buck Converter",
+          "Header",
+          "Altium/KiCad",
+          "UART",
+          "I2C",
+          "SPI",
+          "PWM"
+        ],
+        "result": "Created a platform board that speeds up robot deployment and debugging compared with loose wiring."
+      }
+    },
+    {
+      "id": "robot-robocon-2025",
+      "name": "Robot bóng rổ Robocon 2025",
+      "category": "Robot",
+      "status": "Robocon",
+      "short": "Robot phục vụ Robocon 2025, tập trung vào điều khiển cơ cấu, truyền lệnh và vận hành ổn định.",
+      "cover": "",
+      "images": [],
+      "videos": [],
+      "description": "Dự án robot bóng rổ Robocon 2025 giúp thể hiện kinh nghiệm làm robot thi đấu thực tế: xử lý điều khiển, cơ cấu chấp hành, truyền lệnh và kiểm tra vận hành trong điều kiện có nhiều nhiễu/cơ cấu chuyển động.",
+      "role": [
+        "Tham gia lập trình điều khiển robot.",
+        "Xử lý logic điều khiển cơ cấu.",
+        "Kiểm tra truyền lệnh và phản hồi điều khiển.",
+        "Hỗ trợ tích hợp phần mềm với phần cứng robot."
+      ],
+      "features": [
+        "Điều khiển robot thi đấu.",
+        "Điều khiển cơ cấu ném/bắn.",
+        "Tối ưu vận hành ổn định.",
+        "Có thể bổ sung video demo thực tế."
+      ],
+      "tech": [
+        "Robot Control",
+        "PWM",
+        "UART",
+        "Driver động cơ",
+        "Vi điều khiển",
+        "Cơ cấu chấp hành"
+      ],
+      "result": "Tích lũy kinh nghiệm thực tế về robot thi đấu, tích hợp phần cứng và firmware.",
+      "links": [],
+      "en": {
+        "name": "Robocon 2025 Basketball Robot",
+        "status": "Robocon",
+        "short": "A Robocon 2025 robot focused on mechanism control, command transmission, and stable operation.",
+        "description": "The Robocon 2025 basketball robot project shows hands-on competition robot experience: control processing, actuator mechanisms, command transmission, and testing in environments with noise and moving mechanisms.",
+        "role": [
+          "Participated in robot control programming.",
+          "Handled actuator mechanism control logic.",
+          "Tested command transmission and control feedback.",
+          "Supported integration between software and robot hardware."
+        ],
+        "features": [
+          "Competition robot control.",
+          "Throwing/shooting mechanism control.",
+          "Optimized stable operation.",
+          "Ready for real demo video updates."
+        ],
+        "tech": [
+          "Robot Control",
+          "PWM",
+          "UART",
+          "Motor Driver",
+          "Microcontroller",
+          "Actuator Mechanism"
+        ],
+        "result": "Gained practical experience in competition robots, hardware integration, and firmware development."
+      }
+    },
+    {
+      "id": "robot-tu-dong-ros2",
+      "name": "Máy tính nhúng / ROS2 cho robot tự động",
+      "category": "Robot tự động",
+      "status": "Thuật toán / điều khiển",
+      "short": "Xử lý thuật toán phức tạp trên máy tính nhúng rồi gửi lệnh xuống vi điều khiển để robot thực thi.",
+      "cover": "",
+      "images": [],
+      "videos": [],
+      "description": "Dự án tập trung vào tầng xử lý cao của robot tự động: máy tính nhúng đảm nhiệm thuật toán, còn vi điều khiển xử lý điều khiển cấp thấp. Cách chia tầng này phù hợp với robot cần xử lý nhiều dữ liệu hơn khả năng của vi điều khiển đơn thuần.",
+      "role": [
+        "Xây dựng luồng xử lý giữa máy tính nhúng và vi điều khiển.",
+        "Gửi lệnh điều khiển xuống tầng firmware.",
+        "Tìm hiểu ROS2 và cấu trúc điều khiển robot tự động.",
+        "Kiểm tra phản hồi giữa thuật toán và cơ cấu robot."
+      ],
+      "features": [
+        "Tách tầng xử lý thuật toán và tầng điều khiển thấp.",
+        "Có khả năng mở rộng cho robot tự động.",
+        "Giao tiếp giữa máy tính nhúng và vi điều khiển.",
+        "Phù hợp với các bài toán cần xử lý phức tạp."
+      ],
+      "tech": [
+        "ROS2",
+        "Embedded Computer",
+        "UART",
+        "STM32",
+        "Robot tự động",
+        "Thuật toán điều khiển"
+      ],
+      "result": "Nắm được hướng triển khai robot tự động theo kiến trúc máy tính nhúng + vi điều khiển.",
+      "links": [],
+      "en": {
+        "name": "Embedded Computer / ROS2 for Autonomous Robots",
+        "status": "Algorithm / control",
+        "short": "Complex algorithms run on an embedded computer and send commands down to a microcontroller for robot execution.",
+        "description": "This project focuses on the high-level processing layer of autonomous robots: the embedded computer handles algorithms while the microcontroller handles low-level control. This layered architecture is suitable for robots that need to process more data than a standalone microcontroller can handle.",
+        "role": [
+          "Built the processing flow between embedded computer and microcontroller.",
+          "Sent control commands to the firmware layer.",
+          "Studied ROS2 and autonomous robot control architecture.",
+          "Tested feedback between algorithms and robot mechanisms."
+        ],
+        "features": [
+          "Separates algorithm processing from low-level control.",
+          "Expandable for autonomous robots.",
+          "Communication between embedded computer and microcontroller.",
+          "Suitable for more complex processing tasks."
+        ],
+        "tech": [
+          "ROS2",
+          "Embedded Computer",
+          "UART",
+          "STM32",
+          "Autonomous Robot",
+          "Control Algorithm"
+        ],
+        "result": "Understood the deployment direction for autonomous robots using embedded computer + microcontroller architecture."
+      }
+    },
+    {
+      "id": "app-python-android-robot",
+      "name": "App/Web điều khiển và giám sát bằng Python",
+      "category": "App/Web",
+      "status": "Phần mềm PC / Web / công cụ hỗ trợ",
+      "short": "Các ứng dụng và công cụ trên PC/Web viết bằng Python để điều khiển, giám sát và test giao tiếp với thiết bị nhúng/robot.",
+      "cover": "",
+      "images": [],
+      "videos": [],
+      "description": "Sản phẩm tập trung vào phần mềm điều khiển, giám sát và hỗ trợ debug cho hệ thống nhúng/robot. Phần chính được xây dựng bằng Python trên PC/Web để gửi lệnh, đọc dữ liệu phản hồi, hiển thị trạng thái và hỗ trợ kiểm thử giao tiếp với mạch điều khiển thực tế.",
+      "role": [
+        "Xây dựng giao diện điều khiển/giám sát trên PC hoặc Web bằng Python.",
+        "Viết logic gửi và nhận dữ liệu giữa phần mềm với thiết bị nhúng/robot.",
+        "Xử lý dữ liệu phản hồi, hiển thị trạng thái và hỗ trợ debug hệ thống.",
+        "Kiểm tra giao tiếp thực tế giữa phần mềm, vi điều khiển và cơ cấu robot."
+      ],
+      "features": [
+        "Giao diện điều khiển/giám sát chạy trên PC hoặc Web.",
+        "Gửi/nhận lệnh điều khiển tới thiết bị nhúng.",
+        "Hỗ trợ đọc dữ liệu cảm biến, IMU hoặc trạng thái robot.",
+        "Dễ mở rộng thành công cụ test, debug và giám sát hệ thống."
+      ],
+      "tech": [
+        "Python",
+        "Web UI",
+        "Desktop App",
+        "Serial/UART",
+        "Bluetooth/WiFi",
+        "Arduino/STM32",
+        "Data Logging"
+      ],
+      "result": "Tạo được nền tảng phần mềm điều khiển/giám sát linh hoạt, phù hợp để test giao tiếp, debug phần cứng và mở rộng các chức năng xử lý dữ liệu trong hệ thống robot.",
+      "links": [],
+      "en": {
+        "name": "Python App/Web Control and Monitoring Tools",
+        "status": "PC software / Web / support tools",
+        "short": "Python-based PC/Web applications and tools for controlling, monitoring, and testing communication with embedded devices/robots.",
+        "description": "This product focuses on software for control, monitoring, and debugging of embedded/robot systems. The main part is built with Python on PC/Web to send commands, read feedback data, display status, and support communication testing with real control boards.",
+        "role": [
+          "Built PC or Web control/monitoring interfaces using Python.",
+          "Wrote data send/receive logic between software and embedded devices/robots.",
+          "Processed feedback data, displayed states, and supported system debugging.",
+          "Tested real communication between software, microcontrollers, and robot mechanisms."
+        ],
+        "features": [
+          "Control/monitoring interface running on PC or Web.",
+          "Sends/receives commands to embedded devices.",
+          "Supports reading sensor, IMU, or robot status data.",
+          "Easy to expand into testing, debugging, and monitoring tools."
+        ],
+        "tech": [
+          "Python",
+          "Web UI",
+          "Desktop App",
+          "Serial/UART",
+          "Bluetooth/WiFi",
+          "Arduino/STM32",
+          "Data Logging"
+        ],
+        "result": "Created a flexible software foundation for control/monitoring, communication testing, hardware debugging, and data-processing expansion in robot systems."
+      }
+    }
+  ],
+  "contact": [
+    {
+      "label": "Điện thoại",
+      "value": "0389136558",
+      "href": "tel:0389136558",
+      "en": {
+        "label": "Phone"
+      }
+    },
+    {
+      "label": "Email",
+      "value": "hoangvankhai2004hl@gmail.com",
+      "href": "mailto:hoangvankhai2004hl@gmail.com",
+      "en": {
+        "label": "Email"
+      }
+    },
+    {
+      "label": "GitHub",
+      "value": "github.com/hoangvankhai2004",
+      "href": "https://github.com/hoangvankhai2004",
+      "en": {
+        "label": "GitHub"
+      }
+    },
+    {
+      "label": "CV",
+      "value": "Mở CV tuyển dụng",
+      "href": "cv.html",
+      "en": {
+        "label": "CV",
+        "value": "Open recruitment CV"
+      }
+    }
+  ]
+}
