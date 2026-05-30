@@ -1,0 +1,419 @@
+{
+  "profile": {
+    "name": "Hoàng Văn Khải",
+    "title": {
+      "vi": "Embedded / PCB / Robotics Engineer · Automation",
+      "en": "Embedded / PCB / Robotics Engineer · Automation"
+    },
+    "photo": "",
+    "contacts": [
+      {
+        "type": "phone",
+        "value": "Điện thoại: 0389136558",
+        "href": "tel:0389136558"
+      },
+      {
+        "type": "email",
+        "value": "hoangvankhai2004hl@gmail.com",
+        "href": "mailto:hoangvankhai2004hl@gmail.com"
+      },
+      {
+        "type": "github",
+        "value": "github.com/hoangvankhai2004",
+        "href": "https://github.com/hoangvankhai2004"
+      },
+      {
+        "type": "website",
+        "value": "TikTok: @khaitechnology",
+        "href": "https://www.tiktok.com/@khaitechnology"
+      },
+      {
+        "type": "website",
+        "value": "Portfolio / CV",
+        "href": "index.html"
+      }
+    ]
+  },
+  "sections": {
+    "summary": {
+      "vi": "Kỹ sư Tự động hóa tốt nghiệp loại Xuất sắc, định hướng Embedded / PCB / Robotics. Có 3 năm kinh nghiệm thiết kế và làm mạch bằng Altium, KiCad; 2 năm lập trình vi điều khiển STM32, ESP32, Arduino, RTOS, UART, I2C, SPI, RS485, PID; 1 năm làm máy tính nhúng/ROS2 cho robot tự động. Từng tham gia Robocon 2025–2026 và làm việc tại CLB Robot khoa Điện - Tự động hóa.",
+      "en": "Automation engineer graduated with Excellent classification, focused on Embedded / PCB / Robotics. 3 years of PCB/circuit development with Altium and KiCad; 2 years of STM32, ESP32, Arduino, RTOS, UART, I2C, SPI, RS485 and PID firmware; 1 year of embedded computer/ROS2 work for autonomous robots. Participated in Robocon 2025–2026 and worked with the Robot Club of the Faculty of Electrical Engineering and Automation."
+    },
+    "skillsCore": [
+      {
+        "name": {
+          "vi": "PCB Design: Altium, KiCad",
+          "en": "PCB Design: Altium, KiCad"
+        },
+        "level": 90
+      },
+      {
+        "name": {
+          "vi": "STM32 / ESP32 / Arduino / RTOS",
+          "en": "STM32 / ESP32 / Arduino / RTOS"
+        },
+        "level": 88
+      },
+      {
+        "name": {
+          "vi": "UART / I2C / SPI / RS485 / PID",
+          "en": "UART / I2C / SPI / RS485 / PID"
+        },
+        "level": 84
+      },
+      {
+        "name": {
+          "vi": "Robot control / Mecanum kinematics",
+          "en": "Robot control / Mecanum kinematics"
+        },
+        "level": 82
+      },
+      {
+        "name": {
+          "vi": "Embedded computer / ROS2",
+          "en": "Embedded computer / ROS2"
+        },
+        "level": 75
+      },
+      {
+        "name": {
+          "vi": "App / Web / UI / MATLAB",
+          "en": "App / Web / UI / MATLAB"
+        },
+        "level": 72
+      }
+    ],
+    "tools": [
+      "Altium Designer",
+      "KiCad",
+      "STM32CubeMX / STM32CubeIDE",
+      "ESP32 / Arduino / PlatformIO",
+      "FreeRTOS",
+      "UART · I2C · SPI · RS485",
+      "MATLAB / Simulink",
+      "ROS2",
+      "Git / GitHub",
+      "ChatGPT/Codex · Gemini · Claude · DeepSeek"
+    ],
+    "languages": [
+      {
+        "vi": "Tiếng Việt",
+        "en": "Vietnamese"
+      },
+      {
+        "vi": "Tiếng Anh: TOEIC 550",
+        "en": "English: TOEIC 550"
+      }
+    ],
+    "skillsExtra": [
+      {
+        "name": {
+          "vi": "Phần cứng robot",
+          "en": "Robot hardware"
+        },
+        "items": [
+          {
+            "vi": "Mạch input đọc cảm biến",
+            "en": "Input sensor boards"
+          },
+          {
+            "vi": "Mạch output kích van/cơ cấu chấp hành",
+            "en": "Output driver boards for valves/actuators"
+          },
+          {
+            "vi": "Tay cầm điều khiển chống nhiễu 2.4GHz",
+            "en": "Anti-interference 2.4GHz controller"
+          },
+          {
+            "vi": "Mạch PID điều khiển động cơ",
+            "en": "Motor PID control board"
+          },
+          {
+            "vi": "Board STM32F4 tích hợp buck/header",
+            "en": "STM32F4 board with buck/header"
+          }
+        ]
+      },
+      {
+        "name": {
+          "vi": "Robot & thuật toán",
+          "en": "Robots and algorithms"
+        },
+        "items": [
+          {
+            "vi": "Robocon 2025–2026",
+            "en": "Robocon 2025–2026"
+          },
+          {
+            "vi": "Robot tự động và điều khiển tay",
+            "en": "Autonomous and manual-control robots"
+          },
+          {
+            "vi": "Động học đế Mecanum",
+            "en": "Mecanum base kinematics"
+          },
+          {
+            "vi": "Máy tính nhúng xử lý thuật toán phức tạp",
+            "en": "Embedded computer for complex algorithms"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": {
+          "vi": "Thiết kế và làm mạch",
+          "en": "Circuit and PCB development"
+        },
+        "org": {
+          "vi": "Altium · KiCad · robot hardware",
+          "en": "Altium · KiCad · robot hardware"
+        },
+        "time": "3 năm",
+        "bullets": [
+          {
+            "vi": "Thiết kế mạch đọc tín hiệu input cho cảm biến robot.",
+            "en": "Designed input signal boards for robot sensors."
+          },
+          {
+            "vi": "Thiết kế mạch kích output để kích van/cơ cấu chấp hành trên robot.",
+            "en": "Designed output driver boards for robot valves/actuators."
+          },
+          {
+            "vi": "Thiết kế tay cầm điều khiển chống nhiễu sóng không dây 2.4GHz.",
+            "en": "Designed anti-interference 2.4GHz wireless controllers."
+          },
+          {
+            "vi": "Thiết kế mạch PID điều khiển động cơ và board STM32F4 tích hợp buck/header.",
+            "en": "Designed motor PID boards and STM32F4 boards with buck/header."
+          }
+        ]
+      },
+      {
+        "title": {
+          "vi": "Lập trình vi điều khiển",
+          "en": "Microcontroller firmware"
+        },
+        "org": {
+          "vi": "STM32 · ESP32 · Arduino · RTOS",
+          "en": "STM32 · ESP32 · Arduino · RTOS"
+        },
+        "time": "2 năm",
+        "bullets": [
+          {
+            "vi": "Lập trình STM32, ESP32, Arduino, RTOS, UART, I2C, SPI, RS485 và PID.",
+            "en": "Programmed STM32, ESP32, Arduino, RTOS, UART, I2C, SPI, RS485 and PID."
+          },
+          {
+            "vi": "Phát triển firmware cho robot Robocon, robot thi đấu tại trường và hệ thống điều khiển cơ cấu.",
+            "en": "Developed firmware for Robocon robots, university competition robots and mechanism control systems."
+          }
+        ]
+      },
+      {
+        "title": {
+          "vi": "Máy tính nhúng / ROS2",
+          "en": "Embedded computer / ROS2"
+        },
+        "org": {
+          "vi": "Robot tự động",
+          "en": "Autonomous robots"
+        },
+        "time": "1 năm",
+        "bullets": [
+          {
+            "vi": "Xử lý thuật toán phức tạp cho robot tự động trên máy tính nhúng.",
+            "en": "Processed complex algorithms for autonomous robots on embedded computers."
+          },
+          {
+            "vi": "Gửi lệnh xuống vi điều khiển để gia lệnh và thực thi điều khiển cấp thấp.",
+            "en": "Sent commands to microcontrollers for low-level command execution."
+          }
+        ]
+      },
+      {
+        "title": {
+          "vi": "Robocon & CLB Robot",
+          "en": "Robocon and Robot Club"
+        },
+        "org": {
+          "vi": "Robocon 2025–2026 · CLB Robot khoa Điện - Tự động hóa",
+          "en": "Robocon 2025–2026 · Robot Club"
+        },
+        "time": "2025–2026",
+        "bullets": [
+          {
+            "vi": "Tham gia Robocon 2025 và Robocon 2026.",
+            "en": "Participated in Robocon 2025 and Robocon 2026."
+          },
+          {
+            "vi": "Từng làm việc tại CLB Robot khoa Điện - Tự động hóa.",
+            "en": "Worked with the Robot Club of the Faculty of Electrical Engineering and Automation."
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": {
+          "vi": "Mạch input đọc cảm biến robot",
+          "en": "Robot sensor input board"
+        },
+        "desc": {
+          "vi": "Thiết kế và làm mạch đọc tín hiệu input áp dụng cho cảm biến trên robot.",
+          "en": "Designed and built an input signal reading board for robot sensors."
+        }
+      },
+      {
+        "name": {
+          "vi": "Mạch output kích van robot",
+          "en": "Robot valve output driver board"
+        },
+        "desc": {
+          "vi": "Thiết kế và làm mạch kích output dùng cho van/cơ cấu chấp hành trên robot.",
+          "en": "Designed and built an output driver board for valves/actuators."
+        }
+      },
+      {
+        "name": {
+          "vi": "Tay cầm điều khiển 2.4GHz chống nhiễu",
+          "en": "Anti-interference 2.4GHz controller"
+        },
+        "desc": {
+          "vi": "Thiết kế mạch tay cầm điều khiển chống nhiễu sóng không dây 2.4GHz cho Robocon.",
+          "en": "Designed an anti-interference 2.4GHz wireless controller for Robocon."
+        }
+      },
+      {
+        "name": {
+          "vi": "Mạch PID điều khiển động cơ",
+          "en": "Motor PID control board"
+        },
+        "desc": {
+          "vi": "Thiết kế mạch PID điều khiển động cơ áp dụng cho robot Robocon.",
+          "en": "Designed a motor PID control board for Robocon robots."
+        }
+      },
+      {
+        "name": {
+          "vi": "Board STM32F4 tích hợp buck/header",
+          "en": "STM32F4 board with buck/header"
+        },
+        "desc": {
+          "vi": "Thiết kế mạch đế ra chân STM32F4 tích hợp buck/header để đấu nối robot thuận tiện.",
+          "en": "Designed an STM32F4 breakout board with buck/header for convenient robot wiring."
+        }
+      },
+      {
+        "name": {
+          "vi": "Robot bóng rổ Robocon 2025",
+          "en": "Robocon 2025 basketball robot"
+        },
+        "desc": {
+          "vi": "Lập trình robot bóng rổ cho Robocon 2025.",
+          "en": "Programmed a basketball robot for Robocon 2025."
+        }
+      },
+      {
+        "name": {
+          "vi": "Robot tự động và điều khiển tay Robocon 2026",
+          "en": "Robocon 2026 autonomous/manual robots"
+        },
+        "desc": {
+          "vi": "Lập trình robot tự động và robot điều khiển tay cho Robocon 2026.",
+          "en": "Programmed autonomous and manual-control robots for Robocon 2026."
+        }
+      },
+      {
+        "name": {
+          "vi": "Máy tính nhúng cho robot tự động",
+          "en": "Embedded computer for autonomous robots"
+        },
+        "desc": {
+          "vi": "Xử lý thuật toán phức tạp trên máy tính nhúng và gửi lệnh xuống vi điều khiển.",
+          "en": "Processed complex algorithms on embedded computers and sent commands to microcontrollers."
+        }
+      }
+    ],
+    "education": [
+      {
+        "school": {
+          "vi": "Trường Đại học Kinh tế - Kỹ thuật Công nghiệp",
+          "en": "University of Economics - Technology for Industries"
+        },
+        "degree": {
+          "vi": "Ngành Tự động hóa · Tốt nghiệp loại Xuất sắc",
+          "en": "Automation · Excellent classification"
+        },
+        "start": "",
+        "end": ""
+      }
+    ],
+    "achievements": [
+      {
+        "time": "",
+        "vi": "TOEIC 550",
+        "en": "TOEIC 550"
+      },
+      {
+        "time": "",
+        "vi": "Chứng chỉ MOS",
+        "en": "MOS certificate"
+      },
+      {
+        "time": "2025–2026",
+        "vi": "Tham gia Robocon 2025 và Robocon 2026",
+        "en": "Participated in Robocon 2025 and Robocon 2026"
+      }
+    ],
+    "activities": [
+      {
+        "name": {
+          "vi": "CLB Robot khoa Điện - Tự động hóa",
+          "en": "Robot Club, Faculty of Electrical Engineering and Automation"
+        },
+        "org": {
+          "vi": "Hoạt động kỹ thuật robot",
+          "en": "Robot technical activities"
+        },
+        "time": "2025–2026",
+        "details": [
+          {
+            "vi": "Làm việc trong môi trường robot thực chiến, xử lý phần cứng, firmware và tích hợp hệ thống.",
+            "en": "Worked in a practical robotics environment handling hardware, firmware and system integration."
+          }
+        ]
+      }
+    ]
+  },
+  "labels": {
+    "vi": {
+      "summary": "Tóm tắt",
+      "experience": "Kinh nghiệm",
+      "projects": "Dự án nổi bật",
+      "personal": "Thông tin",
+      "contact": "Liên hệ",
+      "skills": "Kỹ năng bổ sung",
+      "skillsCore": "Kỹ năng chính",
+      "tools": "Công cụ · Công nghệ",
+      "langs": "Ngôn ngữ",
+      "education": "Học vấn",
+      "activities": "Hoạt động",
+      "achievements": "Thành tích / Chứng chỉ"
+    },
+    "en": {
+      "summary": "Summary",
+      "experience": "Experience",
+      "projects": "Featured Projects",
+      "personal": "Personal Info",
+      "contact": "Contact",
+      "skills": "Additional Skills",
+      "skillsCore": "Core Skills",
+      "tools": "Tools · Technologies",
+      "langs": "Languages",
+      "education": "Education",
+      "activities": "Activities",
+      "achievements": "Achievements / Certificates"
+    }
+  }
+}
